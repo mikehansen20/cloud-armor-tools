@@ -9,6 +9,7 @@ A collection of helpful scripts to make lives easier (WIP)
       * `bash protected_resource_count_by_project.sh -f project_list.txt`
         
 * [protected_resource_count_by_org.py](https://github.com/mikehansen20/cloud-armor-tools/blob/main/protected_resource_count_by_org.py) - Counts Protected Resources across all projects within an Organization.
+  * **NOTE: Not fully tested, use with caution.**
   * How to run: `python3 protected_resource_count_by_project.py ORG_ID`
   * E.g., `python3 protected_resource_count_by_project.py 1234567890`
   * Requires org-level permissions to run (see script instructions at the top for details)
